@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.min.js"></script>
+    </head> 
+<body>
+    <div class = "Client-Cap">
+    <video autoplay playsinline id="videoElement"></video>
+    <canvas id="canvas"  width="400" height="300"></canvas>
+    </div>
+
+    <div class = 'Response-Cap'>
+        <img id="photo"  width="400"  height="300">
+    </div>
+    <script src="request.js"></script>
+ </body>
+</html>
+

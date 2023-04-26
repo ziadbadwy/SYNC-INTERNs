@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+      "enable": true,
+      "cert": "D:/sync intern/tasks/task2/client/https/localhost.pem",
+      "key": "D:/sync intern/tasks/task2/client/https/localhost.key",
+      "passphrase": "ziad"
+    }
+  }
+  
