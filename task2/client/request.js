@@ -4,7 +4,7 @@ socket.on('connect', function(){
     console.log("Connected......!", socket.connected)
 });
 
-let canvas = document.getElementById('canvas');
+let z = document.getElementById('canvas');
 let context = canvas.getContext('2d');
 const video = document.querySelector("#videoElement");
 
